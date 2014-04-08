@@ -15,12 +15,12 @@ ASSIGN
 
 	next ( goat ) := case
 		ferryman = goat & next ( carry ) = g : next ( ferryman );
-		TRUE 								 : goat ; 
+		TRUE 	: goat ; 
 	esac ;
 
 	next ( cabbage ) := case
 		ferryman = cabbage & next ( carry ) = c : next ( ferryman );
-		TRUE 									: cabbage ; 
+		TRUE 	: cabbage ; 
 	esac ;
 
 	next ( wolf ) := case
